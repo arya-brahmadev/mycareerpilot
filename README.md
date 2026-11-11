@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://apnacareerpilot.netlify.app"><strong>🚀 Live Preview</strong></a>
+  <a href="https://careerpilot-53kxvz.v2.appdeploy.ai/?utm_source=chatgpt.com"><strong>🚀 Live Preview</strong></a>
   ·
   <a href="https://github.com/arya-brahmadev/mycareerpilot">Source Code</a>
 </p>
 
 CareerPilot brings interview practice, communication training, career planning, application tracking and practical workplace simulations into one workspace.
 
-> **Live application:** [https://apnacareerpilot.netlify.app](https://apnacareerpilot.netlify.app)
+> **Live application:** [https://apnacareerpilot.netlify.app](https://careerpilot-53kxvz.v2.appdeploy.ai/?utm_source=chatgpt.com)
 
 ## Features
 
@@ -83,21 +83,6 @@ Feature availability may depend on the connected AppDeploy services and the user
 ├── tsconfig.json
 └── vite.config.ts
 ```
-
-## Live deployment and routing
-
-The public Netlify URL is:
-
-**[https://apnacareerpilot.netlify.app](https://apnacareerpilot.netlify.app)**
-
-The Netlify `public/_redirects` rule proxies incoming paths to the currently hosted AppDeploy application:
-
-```text
-/* https://careerpilot-53kxvz.v2.appdeploy.ai/:splat 200
-```
-
-This is a reverse proxy, not a migration of the backend. The browser stays on the Netlify domain while the existing AppDeploy-hosted application continues to provide its runtime services. The AppDeploy origin therefore remains a dependency of the live deployment.
-
 ## Running locally
 
 The frontend is a Vite application. With a compatible AppDeploy development/runtime environment and its SDK aliases available:
