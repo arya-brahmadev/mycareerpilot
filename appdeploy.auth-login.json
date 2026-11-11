@@ -1,0 +1,16 @@
+{
+  "methods": [
+    "google"
+  ],
+  "headline": "Your student career profile, all in one place",
+  "subtitle": "Sign in with Google to save your resume and use it across CareerPilot.",
+  "style": {
+    "mode": "light",
+    "accentColor": "#477d6b",
+    "backgroundColor": "#f7f8fa",
+    "panelColor": "#ffffff",
+    "textColor": "#1f2b38",
+    "fontFamily": "DM Sans, system-ui, sans-serif",
+    "borderRadius": 12
+  }
+}

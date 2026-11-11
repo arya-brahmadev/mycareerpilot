@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Daily challenge generates, reviews and saves a role-specific problem",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "daily challenge role-specific daily question",
+      "stable India date challenge",
+      "curated fallback when AI generation quota is unavailable",
+      "candidate answer and AI review",
+      "saved review history",
+      "static code review disclosure"
+    ],
+    "description": "Verifies a signed-in candidate can work through and revisit a daily challenge.",
+    "steps": [
+      "Sign in and open Daily Challenge",
+      "Choose Software Developer and note the title",
+      "Refresh and confirm the title is unchanged for the India date",
+      "Submit an approach and request review",
+      "Open Saved & history, select the reviewed challenge, and verify its question and saved answer are restored"
+    ],
+    "expected":      "The same daily problem remains for that role and date; reopening history restores the question, submitted answer and review, and the page discloses that code was not executed."
+  },
+  {
+    "name": "Job matching produces evidence-based resume actions",
+    "viewport": "desktop",
+    "covers": [
+      "resume action priority",
+      "resume section-specific recommendations",
+      "copy-ready wording and evidence status",
+      "Resumate handoff"
+    ],
+    "description": "Checks the job-specific resume actions tab is available after analysis.",
+    "steps": [
+      "Open Job matching and enter a complete job description",
+      "Run analysis",
+      "Open Resume actions",
+      "Inspect priority, section, evidence and copy wording",
+      "Open Resumate"
+    ],
+    "expected": "Resume actions identify sections, priorities and evidence requirements, and Resumate opens the existing builder."
+  },
+  {
+    "name": "Learning roadmap supports up to 90 hours with a sustainability warning",
+    "viewport": "desktop",
+    "covers": [
+      "roadmap selector up to 90 hours",
+      "backend 90-hour validation",
+      "high workload warning"
+    ],
+    "description": "Checks high weekly hours are accepted but flagged as demanding.",
+    "steps": [
+      "Open Learning roadmap",
+      "Select 90 hours per week",
+      "Confirm the high-workload warning",
+      "Generate the roadmap"
+    ],
+    "expected": "The selector accepts 90, the warning is visible and the backend returns a plan with a weekly budget no higher than 90."
+  },
+  {
+    "name": "Daily challenge save and role separation work on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "daily challenge bookmark",
+      "role-specific challenge separation",
+      "mobile challenge controls"
+    ],
+    "description": "Checks that role switching and saved challenge reopening work on a mobile screen.",
+    "steps": [
+      "Open Daily Challenge on mobile",
+      "Switch to AI Engineer",
+      "Save the challenge",
+      "Open Saved & history, select the saved challenge, and verify its question is displayed", 
+      "Switch to Software Developer"
+    ],
+    "expected": "The saved AI Engineer challenge reopens and the Software Developer challenge is a separate item."
+  }
+]

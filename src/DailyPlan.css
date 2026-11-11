@@ -1,0 +1,73 @@
+.daily-plan-page{max-width:1120px}
+.daily-plan-intro,.daily-time-panel,.daily-plan-footer,.daily-weekly-panel{padding:17px;margin-bottom:14px}
+.daily-plan-intro{display:flex;align-items:center;gap:14px}
+.daily-plan-intro-icon{width:42px;height:42px;display:grid;place-items:center;background:#edf5ee;color:#4f805b;border-radius:10px}
+.daily-plan-intro-copy{flex:1}
+.daily-plan-intro-copy span,.daily-progress-card>span,.daily-timer-heading span{font-size:8px;font-weight:800;color:#819087;letter-spacing:.7px}
+.daily-plan-intro-copy h2{font:800 17px Manrope,sans-serif;color:#34483a;margin:5px 0 0}
+.daily-plan-date{font-size:9px;color:#64816a}
+.daily-time-panel{display:grid;gap:12px}
+.daily-timer-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.daily-timer-heading>div:first-child{display:grid;gap:4px}
+.daily-timer-heading strong{font:800 30px Manrope,sans-serif;color:#365c40;font-variant-numeric:tabular-nums}
+.daily-timer-heading small{font-size:9px;color:#89958c}
+.daily-timer-controls,.daily-heading-actions{display:flex;gap:8px;flex-wrap:wrap}
+.daily-timer-controls button{display:flex;align-items:center;gap:6px}
+.daily-field{display:grid;gap:7px;margin:12px 0;color:#5e7062;font-size:10px;font-weight:700}
+.daily-field input,.daily-field select,.daily-field textarea{width:100%;border:1px solid #e1e8e2;border-radius:8px;padding:11px 12px;background:#fff;color:#3f4c42;font:11px 'DM Sans',sans-serif}
+.daily-allowance-field{max-width:280px;margin-bottom:0}
+.daily-progress-grid{display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:12px;margin:15px 0 24px}
+.daily-progress-card{padding:16px;display:flex;flex-direction:column;gap:8px}
+.daily-progress-card>span{font-size:8px;font-weight:800;color:#819087}
+.daily-progress-card strong{font:800 25px Manrope,sans-serif;color:#3b5e43}
+.daily-progress-card strong small,.daily-progress-card>small{font:10px 'DM Sans',sans-serif;color:#89958c}
+.daily-task-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0}
+.daily-task-heading h2{font:800 18px Manrope,sans-serif;color:#35463a;margin:5px 0}
+.daily-task-heading p{font-size:9px;color:#87938a;margin:0}
+.daily-task-list{display:grid;gap:10px}
+.daily-task{display:flex;gap:13px;padding:16px}
+.daily-task-check{padding-top:2px}
+.daily-task-check input{width:20px;height:20px;accent-color:#568363;cursor:pointer}
+.daily-task-body{flex:1;min-width:0}
+.daily-task-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:8px;color:#87938a}
+.daily-task-meta span{display:inline-flex;align-items:center;gap:4px}
+.daily-priority{font-weight:800}
+.priority-high{color:#b66b4e}.priority-medium{color:#8b8655}.priority-low{color:#6c8c77}
+.daily-task h3{font:700 13px Manrope,sans-serif;color:#3d4e42;margin:9px 0 5px}
+.daily-task p{font-size:10px;line-height:1.7;color:#78867c;margin:0;white-space:pre-wrap}
+.daily-task-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:12px}
+.daily-task-actions button{font-size:9px;padding:7px 9px}
+.daily-task-skip,.daily-task-icon{border:1px solid #e6ebe6;background:#fff;color:#718176;border-radius:7px;padding:6px}
+.daily-task-icon.danger{color:#ad6b5b}
+.daily-task.is-complete h3{text-decoration:line-through;color:#819087}
+.daily-task.is-skipped{opacity:.72}
+.daily-empty-state{padding:28px;text-align:center;color:#718176}
+.daily-empty-state h3{font:700 14px Manrope,sans-serif;color:#3d4e42;margin:10px 0 5px}
+.daily-empty-state p{max-width:440px;margin:0 auto 14px;font-size:10px;line-height:1.7;color:#87938a}
+.daily-weekly-row{display:grid;grid-template-columns:100px 1fr auto auto;gap:9px;align-items:center;padding:9px 0;border-top:1px solid #edf0ed;font-size:10px}
+.daily-weekly-row small{color:#87938a}.daily-weekly-row button{border:0;background:transparent;color:#557b5d;cursor:pointer}
+.daily-plan-footer{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.daily-plan-footer>div{display:flex;gap:10px;color:#5b8062}
+.daily-plan-footer b{font-size:10px;color:#4c6651}
+.daily-plan-footer p{font-size:9px;line-height:1.6;color:#89958c;margin:4px 0 0}
+.daily-sync-state{font-size:9px;color:#6e8b73;white-space:nowrap}
+.daily-plan-message{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px;background:#fff8eb;color:#936d3f;font-size:10px}
+.daily-plan-message button{border:1px solid #e9d9bd;background:#fff;border-radius:6px;padding:6px 9px;color:#805f36}
+.daily-modal-backdrop{position:fixed;inset:0;background:#15221c66;display:grid;place-items:center;padding:16px;z-index:1200}
+.daily-task-modal{width:min(620px,100%);max-height:90vh;overflow:auto;padding:20px}
+.daily-modal-head,.daily-modal-actions{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.daily-modal-head h3{font:800 16px Manrope,sans-serif;color:#394b3d}
+.daily-modal-head button{border:0;background:transparent;color:#758278;cursor:pointer}
+.daily-instruction-heading{display:grid;gap:7px}
+.daily-ai-instructions-button{justify-self:start;display:inline-flex;align-items:center;gap:7px}
+.daily-ai-suggestion{border:1px solid #dce9de;background:#f7fbf7;border-radius:9px;padding:12px;margin:10px 0}
+.daily-ai-suggestion-title{display:flex;align-items:center;gap:7px;color:#52775a;font-size:10px;font-weight:800}
+.daily-ai-suggestion p{font-size:10px;line-height:1.7;color:#536457;white-space:pre-wrap}
+.daily-suggestion-actions{display:flex;gap:8px;flex-wrap:wrap}
+.daily-suggestion-error{color:#a66a52;font-size:10px}
+.daily-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+.daily-modal-actions{justify-content:flex-end;margin-top:12px}
+.daily-plan-page button{cursor:pointer}
+.daily-spin{animation:dailySpin 1s linear infinite}
+@keyframes dailySpin{to{transform:rotate(360deg)}}
+@media(max-width:700px){.daily-progress-grid{grid-template-columns:1fr 1fr}.daily-progress-card:last-child{grid-column:1/-1}.daily-task-heading,.daily-timer-heading,.daily-plan-footer{align-items:stretch;flex-direction:column}.daily-task{padding:12px}.daily-task-actions button{flex:1}.daily-heading-actions,.daily-timer-controls{width:100%}.daily-heading-actions button,.daily-timer-controls button{flex:1;justify-content:center}.daily-form-grid{grid-template-columns:1fr}.daily-weekly-row{grid-template-columns:1fr auto}.daily-allowance-field{max-width:none}}
